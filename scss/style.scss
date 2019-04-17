@@ -182,3 +182,17 @@ $next: #ff4141;
         }
     }
 }
+
+// these changes are to be reflected using this class name in place of style attribute defining changes
+// this is for intro tour guide step-1
+.intro-step-1 { 
+top: 49.5%;
+left: 50%;
+width: 80%;
+}
+
+// this is for intro tour guide step-2
+.intro-step-2 {
+    // only update width, top is auto generated
+    width: 80%;
+}
